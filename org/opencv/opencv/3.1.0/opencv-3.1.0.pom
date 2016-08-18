@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.opencv</groupId>
+	<artifactId>opencv</artifactId>
+	<version>3.1.0</version>
+	<packaging>jar</packaging>
+
+	<name>OpenCV</name>
+	<description>Open Source Computer Vision</description>
+	<url>http://www.opencv.org</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>opencv-natives</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-x86</classifier>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>opencv-natives</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-x86-64</classifier>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>opencv-natives</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-arm</classifier>
+		</dependency>
+	</dependencies>	
+</project>

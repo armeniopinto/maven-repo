@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<groupId>org.rxtx</groupId>
+	<artifactId>rxtx-natives</artifactId>
+	<versioning>
+		<release>2.2pre1</release>
+		<latest>2.2pre1</latest>
+		<versions>
+			<version>2.2pre1</version>
+		</versions>
+		<lastUpdated>20160818000000</lastUpdated>
+	</versioning>
+</metadata>

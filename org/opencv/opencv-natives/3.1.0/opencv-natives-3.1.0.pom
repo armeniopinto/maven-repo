@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.opencv</groupId>
+	<artifactId>opencv-natives</artifactId>
+	<version>3.1.0</version>
+	<packaging>pom</packaging>
+
+	<name>OpenCV Native Libraries</name>
+	<description>Open Source Computer Vision Native Libraries</description>
+	<url>http://www.opencv.org</url>
+</project>
